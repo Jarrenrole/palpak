@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080808">
+    <meta name="description" content="Jarren Role's personal portfolio website.">
+
+    <title>Jarren Role | Web Developer</title>
+
+    <!-- Boxicons -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Defer waits until the HTML is parsed -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <span>ROLEⓍ</span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menu-icon"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="navbar"
+        >
+            <i class="bx bx-menu"></i>
+        </button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#Educational Attainment">Educational Attainment</a>
+            <a href="#Achievements">Achievements</a>
+            <a href="#My Family">My Family</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+
+            <div class="home-content">
+                <p class="eyebrow">
+                    <span class="status-dot"></span>
+                    WELCOME TO MY PORTFOLIO
+                </p>
+
+                <h1>
+                    Hi, I'm  Jarren <span>Role</span>
+                </h1>
+
+                <h2 class="role-heading">
+                    I'm a <span class="multiple-text">Web Developer</span>
+                </h2>
+
+                <p class="home-description">
+                    Aspiring web developer passionate about blending technology and creative design to build impactful digital experiences. Dedicated to continuous learning and technical refinement, delivering high-quality results one project at a time.
+                </p>
+
+                <div class="social-media">
+                    <!-- Replace # with your actual profile URLs -->
+                    <a href="https://www.facebook.com/share/1KS4kh4XMm/" aria-label="Facebook">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/jrenzyy_?vrfl=MTBsZWN1MjFwNzF2MA==" aria-label="Instagram">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="bx bxl-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="bx bxl-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="home-buttons">
+                    <a href="#about" class="btn">Explore More</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+
+                <p class="scroll-note">
+                    <i class="bx bx-mouse"></i>
+                    Scroll to explore
+                </p>
+            </div>
+
+            <!-- PROFILE IMAGE -->
+            <div class="home-img">
+                <div class="image-glow"></div>
+
+                <div class="image-ring">
+                    <img
+                        src="assets/Profile.jpg"
+                        alt="Portrait of Jarren Role"
+                    >
+                </div>
+
+                <div class="floating-tag tag-top">
+                    <i class="bx bx-code-alt"></i>
+                    <span>Code Creatively</span>
+                </div>
+
+                <div class="floating-tag tag-bottom">
+                    <span class="mini-dot"></span>
+                    <span>Always Learning</span>
+                </div>
+            </div>
+
+            <div class="hero-decoration decoration-one"></div>
+            <div class="hero-decoration decoration-two"></div>
+
+        </section>
+
+        <!-- FUTURE SECTIONS -->
+        <section class="placeholder-section" id="Educational Attainment">
+            <span class="section-label">01 / EDUCATIONAL ATTAINMENT</span>
+            <h2>Get to know <span>me.</span></h2>
+            <p>
+                Share your educational background, degrees, and relevant coursework here.
+
+
+            </p>
+        </section>
+
+        <section class="placeholder-section" id="Achievements">
+            <span class="section-label">02 / ACHIEVEMENTS</span>
+            <h2>What I can <span>do.</span></h2>
+            <p>
+                Highlight your accomplishments, awards, certifications, and any notable achievements.
+            </p>
+        </section>
+
+        <section class="placeholder-section" id="My Family">
+            <span class="section-label">03 / MY FAMILY</span>
+            <h2>My Family<span>Members</span></h2>
+            <p>
+                Introduce your family members, their roles, and any special moments or stories you'd like to share.
+
+            </p>
+        </section>
+
+        <section class="placeholder-section" id="contact">
+            <span class="section-label">04 / CONTACT</span>
+            <h2>Let's get in <span>touch.</span></h2>
+            <p>
+                Add your contact details or a contact form here.
+            </p>
+            <a href="mailto:your-email@example.com" class="btn">
+                Email Me
+            </a>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© <span id="year"></span> Jarren Role. All rights reserved.</p>
+        <a href="#home" aria-label="Back to top">
+            <i class="bx bx-up-arrow-alt"></i>
+        </a>
+    </footer>
+
+</body>
+</html>
